@@ -6,7 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="./authenticator.js">
+    <script>
+        let userid = prompt("Please enter username")
+let password = prompt("Please enter password")
+authenticate(userid,password)
+function authenticate (userid, password){
+
+    if (userid == "admin" && password == "secret"){
+    console.log("Welcome admin!")
+}
+
+
+};
     </script>
 </body>
 </html>
